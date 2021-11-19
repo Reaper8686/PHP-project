@@ -1,0 +1,199 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* for menu */
+.menu{
+    border-bottom:solid black 2px ;
+}
+.menu ul{
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 15px 0;
+    /* background-color: rgb(219, 103, 219); */
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.menu ul li a{
+    color: rgb(245, 65, 245);
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: rgb(230, 0, 230);
+}
+
+/* for main-content */
+.main-content{
+    background-color: rgb(218, 216, 216);
+    padding: 10px 50px;
+    /* display: flex; */
+    overflow: hidden;
+}
+.category{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 10px;
+    /* box-shadow: rgb(114, 109, 109) 2px 2px 0px 0px; */
+}
+
+/* Admin page */
+.table{
+    width: 100%;
+    margin: 20px 0;
+}
+.table tr th{
+    border-bottom: black 3px solid;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+.table tr td{
+    padding: 10px;
+    font-size: 10px;
+}
+.table tr td a{
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+    border-radius: 5px;
+    padding: 5px 8px;
+    /* font-weight: bold; */
+}
+#up{
+    background-color: rgb(75, 236, 75);
+}
+#del{
+    background-color: rgb(255, 64, 64);
+}
+#up:hover{
+    background-color: rgb(13, 230, 13);
+}
+#del:hover{
+    background-color: rgb(255, 32, 32);
+}
+.Abtn{
+    padding: 10px 5px;
+    font-weight: bold;
+    background-color: rgb(76, 187, 252);
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+}
+.Abtn a{
+    text-decoration: none;
+    color: white;
+}
+.Abtn:hover{
+    background-color: rgb(43, 174, 250);
+}
+
+/* Add Table */
+.aForm{
+    /* background-color: rgb(219, 103, 219); */
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.aForm{
+    font-weight: bold;
+}
+.aForm input,.aForm textarea{
+    margin: 10px;
+    padding:5px;
+    width: 60%;
+    border: 0;
+    border-radius: 5px;
+}
+.Fbtn{
+    border: 0;
+    background-color: rgb(75, 236, 75);
+    font-weight: bold;
+    color: white;
+    /* padding: 5px 10px; */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* admin login page */
+.login-main{
+    background-image: linear-gradient(90deg,rgb(236, 55, 236),white);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: rgb(235, 186, 236);
+    padding: 20px 30px;
+    color: rgb(230, 0, 230);
+    border-radius: 10px;
+    border: solid 1px rgb(230, 0, 230);
+    text-align: center;
+}
+.login h1{
+    text-align: center;
+}
+.login label{
+    margin: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+.login input{
+    margin: 10px 10px;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+.log-btn{
+    font-weight: bold;
+    background-color: rgb(245, 65, 245);
+    color: white;
+    width: 80px;
+    /* padding: 5px 100px; */
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+.log-btn:hover{
+    background-color: white;
+    color: rgb(245, 65, 245);
+}
+
+/* add category page*/
+
+#cForm{
+    /* background-color: rgb(245, 139, 245); */
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(49, 46, 49);
+    /* height: 500px; */
+}
+#cForm form span{
+    font-weight: bold;
+}
+#cForm form input{
+    margin: 20px 010px;
+    padding: 5px 10px;
+}
+
+
+/* for footer */
+.footer{
+    text-align: center;
+    background-color:  rgb(219, 103, 219);
+    padding: 5px 0;
+}
+.footer p{
+    font-size: 14px;
+    color: white;
+}
